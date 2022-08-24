@@ -1,4 +1,4 @@
-package com.LeetCodeSolutions.ValidAnagram;
+package com.LeetCodeSolutions.ArraysAndHashing.ValidAnagram;
 
 import java.util.HashMap;
 import java.util.Map;

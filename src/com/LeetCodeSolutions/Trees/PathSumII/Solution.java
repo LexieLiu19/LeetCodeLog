@@ -25,7 +25,7 @@ public class Solution {
         }
 
 
-        pathSumHelper(root.left, target - root.val, new ArrayList<Integer>(current), res);
-        pathSumHelper(root.right, target - root.val, new ArrayList<Integer>(current), res);
+        pathSumHelper(root.left, target - root.val, new ArrayList<>(current), res); // copy the current list items
+        pathSumHelper(root.right, target - root.val, new ArrayList<>(current), res);
     }
 }
